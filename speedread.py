@@ -1,4 +1,4 @@
-# file: speedread-terminal/speedread.py
+# file: speedread-pygame/speedread.py
 
 import time
 import os
