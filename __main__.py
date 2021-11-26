@@ -13,7 +13,7 @@ cmd = Command(description="SpeedRead")
 	cmd.argument("-P", "--punctuation", action="store_true",help="use punctuation delay"),
 	cmd.argument("-H", "--height", action="store_true",help="set display height"),
 	cmd.argument("-W", "--width", action="store_true",help="set display width"),
-	cmd.argument("-t", "--font", action="store_true",help="set font size")
+	cmd.argument("-s", "--size", action="store_true",help="set font size")
 )
 def main(self, args):
 	'''SpeedRead'''
@@ -41,8 +41,8 @@ def main(self, args):
 		height = args.height
 	if args.width:
 		width = args.width
-	if args.font:
-		font_size = args.font
+	if args.size:
+		font_size = args.size
 
 	if args.file:
 		SpeedRead(args.file, words_per_minute, pointer, word_focus, word_delay, punctuation_delay, height, width, font_size)

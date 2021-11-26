@@ -30,6 +30,6 @@ optional arguments:
   -P, --punctuation     use punctuation delay
   -H, --height          set display height
   -W, --width           set display width
-  -t, --font            set font size
+  -s, --size            set font size
 
 ```

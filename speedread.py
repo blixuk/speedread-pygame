@@ -21,11 +21,12 @@ class SpeedRead:
 			self.font_size  = int(height / 2)
 		else:
 			self.font_size = font_size
+		self.font = 'DejaVu Sans Mono'
 
 		pygame.init()
 		self.window = pygame.display.set_mode((self.width, self.height))
 		pygame.display.set_caption("SpeedReader")
-		self.font = pygame.font.SysFont("DejaVu Sans Mono", self.font_size)
+		self.font = pygame.font.SysFont(self.font, self.font_size)
 
 		self.read(self.open_file(file))
 
