@@ -1,6 +1,5 @@
-# speedread-pygame
+# speedread (pygame)
 
-SpeedRead GUI
 This is a speed reader tool written in pyhton using PyGame
 
 - word per minute can be set (defualt if 250). This changes when delay and punctuation delay are enabled.

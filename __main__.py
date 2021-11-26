@@ -1,4 +1,4 @@
-# file: speedread-terminal/__main__.py
+# file: speedread-pygame/__main__.py
 
 from speedread import SpeedRead
 from command import Command
